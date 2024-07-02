@@ -65,7 +65,6 @@
 
 h1 {
 text-align: center;
-padding-right: 40px;
 font-size: 54px;
 color: var(--secondary-color);
    
@@ -136,7 +135,7 @@ text-align: justify;
 }
 
 main h2 {
-  font-size: 10px;
+  font-size: 11px;
   text-align: left;
   font-weight: 700;
   line-height: 1;
@@ -157,7 +156,7 @@ main h3 {
 }
 
 main p {
-  font-size: 15.5px;
+  font-size: 13px;
   font-family: "Barlow";
   text-align: justify;
 }
@@ -166,7 +165,7 @@ main p {
 .img-responsive {
   width: 100%;
   display: block;
-  border-radius: 9px;
+  border-radius: 5px;
 }
 
 .card-container img {
@@ -174,12 +173,12 @@ main p {
     border-radius: 50%;
 }
 
-.landscape {
+.legacypic {
   width: 250px;
 }
 
 .landscape1 {
-  width: 220px;
+  width: 205px;
 }
 .footer {
   background-color: white;
@@ -199,41 +198,43 @@ main p {
 @media (max-width: 960px)  {
 
 .statement {
-  font-size: 13px;
+font-size: 13px;
 }
 
- section {
-    padding: 30px;
+section {
+padding: 30px;
   }
 
-  .grid-twocolumn {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
+.grid-twocolumn {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 32px;
   }
+
+.mt-1 {
+  padding: 22px;
+}
+
 
 h3 {
-  font-size: 18px;
+font-size: 16px;
+}
+
+main h2 {
+font-size: 9px;
 }
 
  .nav-item{
-    font-size: 15px;
+font-size: 15px;
   }
 
 .footer p {
 text-align: center;
-font-size: 13px;
+font-size: 11px;
 }
-
-
-
 }
-
-
 
   </style>
-
-
   <body>
 
     <nav class="navbar navbar-expand-lg">
@@ -246,9 +247,6 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-
- 
-
 
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -283,31 +281,26 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
                   <h2 class="statement">How one woman created an inspirational legacy for future generations 
                     <br><a name="Beatrix" href=#Beatrix class="btn mt-3">Learn more </h2></a>
                   <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/624/original/peterfamily1.png?1719487006"  class="img-fluid" /> 
-                  
                   </div>
    
- 
 <main class="main">
     <section class= "grid-twocolumn">
-    <div>
+    <div id="Beatrix">
       <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/633/original/beatrix2.jpeg?1719487227" alt="youngbeatrix" class="img-responsive" />
     </div>
     <div>
-      <h2 id="Beatrix">A trailblazer in Victorian times</h2>
+      <h2>A trailblazer in Victorian times</h2>
       <h3>Beatrix Potter and her legacy</h3>
       <p>Beatrix Potter is a name that resonates with warmth, nostalgia and
           tales of a mischievous little rabbit called Peter. She was more than the creator of Peter Rabbit and Jemima Puddle-Duck.
-        She left us a legacy which we still see and will enjoy for generations to come. 
+        She left us a legacy which we will enjoy for generations to come. 
         <br>When she was 9 years old, 
-      she was already drawing rabbits that stood on their hind legs, wore clothes and fiddled with their umbrellas.
-
+      she was already drawing rabbits that stood on their hind legs, wore clothes and fiddled with their umbrellas 🐰.
        </p>
   </div>
   </section>
 </main>
-
   
-        
 <div class="card-container">
       <div class="row">
           <div class="col-md-4 mt-1">
@@ -315,16 +308,16 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
             <p>Beatrix was a talented watercolourist and her paintings and drawings 
               are in collections all over the world. She illustrated charming animal portraits, and narrated their complex lives into 
               a series of beloved children's books. Her work is loved by people worldwide. </p>
-            <img class="landscape"
+            <img class="legacypic"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/625/original/Illustrator.jpg?1719487025">
           </div>
           <div class="col-md-4 mt-1">
               <p3>Author</p3>
               <p>She is one of the best loved authors of children's fiction in the 20th century. 
                 In 1902 her first version of The Tale of Peter Rabbit 
-                was published. She went on to write more books in her lifetime, which were translated into other languages. 
+                was published. She went on to write 60 books in her lifetime, 23 of which were children's tales. Her books have been translated into other languages. 
                </p>
-            <img class="landscape"
+            <img class="legacypic"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/626/original/Artist.jpg?1719487159">
           </div>
            <div class="col-md-4 mt-1">
@@ -333,9 +326,8 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
                 By 1896 she had developed her own theory of how fungi spores reproduced and 
                 submitted a scientific paper titled “On the Germination of the Spores of 
                Agaricineae,” to London’s Linnaean Society. 
-               
-    </p>
-            <img class="landscape"
+                </p>
+            <img class="legacypic"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/630/original/mushrooms.jpeg?1719487187">
           </div>
           </div>
@@ -345,8 +337,8 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
           <div class="col-md-4 mt-1">
             <p3 class="">Preservationist</p3>
             <p>From her book sales, Beatrix helped to save and preserve the countryside of the English Lake District by acquiring 4300 
-              acres of land and farms to protect them from developers, 
-              and left it all to the National Trust. 
+              acres of land and farms them from developers. When she died 
+              she left it all to the National Trust. 
         </p>
             <img class="landscape1"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/627/original/landscape.jpg?1719487166">
@@ -354,20 +346,20 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
           <div class="col-md-4 mt-1">
               <p3>Businesswoman</p3>
               <p>
-                Beatrix registered a Peter Rabbit doll in 1903, followed by a Jemima Puddle-Duck doll
-                recognising that merchandise such as books, games, and dolls would be marketing 
+                Beatrix registered a Peter Rabbit doll in 1903, followed by a Jemima Puddle-Duck doll which she designed herself.
+                She recognised that merchandise such as books, games, and dolls would be marketing 
                 assets for all her endeavours. 
                 </p>
-            <img class="landscape"
+            <img class="legacypic"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/632/original/beatrix3.jpeg?1719487218">
           </div>
            <div class="col-md-4 mt-1">
               <p3>Entrepreneur</p3>
               <p>In 1919, she helped to set up a Nursing Trust for the local villages  
                 to improve health care for all the local residents. This pioneering 
-                arrangement lives on today. Beatrix helped people thorughout her life in many ways.  
+                arrangement lives on today. Beatrix helped people thorughout her life in so many ways. She is a true inspiration.  
                 </p>
-            <img class="landscape"
+            <img class="legacypic"
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/629/original/mice.jpeg?1719487180">
           </div>
 </div>
@@ -376,7 +368,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/origina
      <div class="footer mt-3">  <img class="footerlogo"
             src="
 https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/628/original/rabbitlogo.jpg?1719487174"> 
-                <br><p>This website was built with nostalgia and love.  
+                <br><p>This website was built with nostalgia and 🧡.  
                 <br>
                 ~ <strong> Coded by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
                 target="_blank">Sandra Mercadal
